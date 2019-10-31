@@ -1,3 +1,3 @@
-# Mapurunga-MyDiet
+# Mapurunga-VSS-SDK-COM
 
-Um app que ajuda a você montar uma dieta equilibrada baseado no que você gosta de comer, valores nutricionais e seu objetivo. Você informa quantas refeicoes gostaria de fazer e o que está disposto a comer, após, o app busca via algoritmo de busca e faz um ranking de possíveis dietas baseado no seus valores diários necessários.
+Programa que faz a comunicação entre o simulador VSS-SDK e o código da equipe de VSS da roboime. Consiste em 2 partes, uma em C++ e outra em LabView, a primeira rodando em ubuntu e outra em windows, ambas fazendo recebimento e envio de pacotes. Sendo a parte em C++ trabalhando em TCP e a LabView em UDP, com o programa fazendo o link entre as duas.
