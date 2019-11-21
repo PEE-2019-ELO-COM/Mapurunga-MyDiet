@@ -1,6 +1,6 @@
 # Mapurunga-VSS-SDK-COM
 
-Programa que faz a comunicação entre o simulador VSS-SDK e o código da equipe de VSS da roboime. Consiste em 2 partes, uma em C++ e outra em LabView, a primeira rodando em ubuntu e outra em windows, ambas fazendo recebimento e envio de pacotes. Sendo a parte em C++ trabalhando em TCP e a LabView em UDP, com o programa fazendo o link entre as duas. Os pacotes serão enviados via protobufs da google.
+Programa que faz a comunicação entre o simulador VSS-SDK e o código da equipe de VSS da roboime. Consiste em 2 partes, uma em C++ e outra em LabView, a primeira rodando em ubuntu e outra em windows, ambas fazendo recebimento e envio de pacotes. Sendo a parte em C++ trabalhando em TCP e a LabView em UDP, com o programa fazendo o link entre as duas. Os pacotes serão enviados via protobufs da google. Os código desenvolvidos até o momento podem ser encontrado nas branches [vss-sample](https://github.com/roboime/VSS/tree/vss-sample) e [vss-simulator](https://github.com/roboime/VSS/tree/vss-simulator) do repositório da equipe da VSS da roboime.
 
 LabView:
 ![](/img/img3.PNG)
@@ -11,7 +11,7 @@ Xming no Ubuntu usando QT:
 ## Requisitos
 Labview 2018+,
 Subsistema do windows para linux,
-VSS-SDK no linux,
+[VSS-SDK](https://vss-sdk.github.io/book/general.html) no linux,
 Codigo fonte da equipe VSS da roboime,
 Xming.
 
