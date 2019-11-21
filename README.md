@@ -20,10 +20,12 @@ Xming.
 Será utilizado a interface gráfica dafault do LabView (Front Panel)
 
 Esboço:
-![](/img/img4.PNG)
+
+![](/img/img5.png)
 
 Versão atual:
-![](/img/img5.png)
+
+![](/img/img4.PNG)
 
 ## Pacotes
 
