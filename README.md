@@ -15,11 +15,11 @@ http://redmine.roboime.com.br/attachments/download/4870/video1.mp4
 ![](/img/img6.PNG)
 
 ## Requisitos
-Labview 2018+,
-Subsistema do windows para linux,
-[VSS-SDK](https://vss-sdk.github.io/book/general.html) no linux,
-Codigo fonte da equipe VSS da roboime,
-Xming.
+*Labview 2018+,
+*Subsistema do windows para linux,
+*[VSS-SDK](https://vss-sdk.github.io/book/general.html) no linux,
+*Codigo fonte da equipe VSS da roboime,
+*Xming.
 
 ## Biblioteca gráfica
 
