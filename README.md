@@ -8,6 +8,11 @@ LabView:
 Xming no Ubuntu usando QT:
 ![](/img/img2.PNG)
 
+Vídeo dos projetos comunicando:
+http://redmine.roboime.com.br/attachments/download/4870/video1.mp4
+
+## Fluxograma
+![](/img/img6.PNG)
 ## Requisitos
 Labview 2018+,
 Subsistema do windows para linux,
