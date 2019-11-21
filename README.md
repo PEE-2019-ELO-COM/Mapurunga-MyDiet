@@ -5,7 +5,7 @@ Programa que faz a comunicação entre o simulador VSS-SDK e o código da equipe
 LabView:
 ![](/img/img3.PNG)
 
-Xming no Ubuntu usando QT:
+Xming no Ubuntu:
 ![](/img/img2.PNG)
 
 Vídeo dos projetos comunicando:
@@ -15,11 +15,11 @@ http://redmine.roboime.com.br/attachments/download/4870/video1.mp4
 ![](/img/img6.PNG)
 
 ## Requisitos
-*Labview 2018+,
-*Subsistema do windows para linux,
-*[VSS-SDK](https://vss-sdk.github.io/book/general.html) no linux,
-*Codigo fonte da equipe VSS da roboime,
-*Xming.
+* Labview 2018+
+* Subsistema do windows para linux
+* [VSS-SDK](https://vss-sdk.github.io/book/general.html) no linux
+* Codigo fonte da equipe VSS da roboime
+* Xming
 
 ## Biblioteca gráfica
 
@@ -32,6 +32,23 @@ Esboço:
 Versão atual:
 
 ![](/img/img4.PNG)
+
+## Instalação
+Instale o VSS-SDK no subsistema do windows seguindo as [instruções](https://vss-sdk.github.io/book/install.html).
+Baixe a branch [vss-sample](https://github.com/roboime/VSS/tree/vss-sample) repositório da roboime e mova os arquivos "roboime.proto" e "main.cpp" para a pasta ~/VSS-SampleCpp/src/ de onde você instalou o simulador substituindo a main.cpp que já existia lá. Após, no diretório ~/VSS-SampleCpp/src/ execute o comando:
+ 		
+		protoc -I=. --cpp_out=. roboime.proto
+		
+Vá ao repositório ~/VSS-SampleCpp/ e execute o comando:
+
+		sudo ./configure.sh
+		
+Utilizando as instruções da wiki do VSS-SDK mencionada acima, abra o vss-simulator normalmente e o vss-viewer com o xming.
+Na diretório ~/VSS-SampleCpp/build/, execute o comando:
+
+		./vss-sample 224.5.23.3
+		
+Com o Labview abra o código da roboime e utilize o endereço 224.5.23.3 e as portas 9001 e 9002 para time amarelo+bola e time azul, respectivamente. Para o Serial TX, utilize o endereço local 127.0.0.1 e porta 9003. Execute com o comando Force Start.
 
 ## Pacotes
 
